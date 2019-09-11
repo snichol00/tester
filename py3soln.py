@@ -11,6 +11,17 @@ def randomselectname(inputlist):
     index = random.randint(0,len(inputlist) - 1)
     return inputlist[index]
 
+def getname(inputdict):
+    names = randomselectlist(inputdict)
+    name = randomselectname(names)
+    print (name)
+
+KREWES = { 'orpheus': ['Emily', 'Kevin', 'Vishwaa', 'Eric', 'ray', 'Jesse', 'Tiffany',
+                       'Amanda', 'Junhee', 'Jackie', 'Tyler', 'Emory', 'Ivan'],
+           'rex': ['William', 'Joseph', 'Calvin', 'Ethan', 'Moody', 'Mo'],
+           'endymion' : ['Grace', 'Nahi', 'Derek', 'Jun Tao', 'Connor']
+           }
+getname(KREWES)
 
         
     
