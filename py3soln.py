@@ -7,6 +7,10 @@ def randomselectlist(inputdict, index = random.randint(0, 2) ):
     else:
         return inputdict['endymion']
 
+def randomselectname(inputlist):
+    index = random.randint(0,len(inputlist) - 1)
+    return inputlist[index]
+
 
         
     
